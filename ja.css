@@ -1,0 +1,58 @@
+*,
+*:before,
+*:after{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.container{
+    background-color: aliceblue;
+    margin-top: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    border-radius: 25px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.timerDisplay{
+    color: blueviolet;
+    font-size: 30px;
+}
+#start{
+background-color: blueviolet;
+border-radius: 4px;
+width: 70px;
+height: 40px;
+margin-right: 7%;
+color: white;
+}
+#pause{
+background-color: red;
+border-radius: 4px;
+width: 70px;
+height: 40px;
+margin-right: 7%;
+color: white;
+}
+#reset{
+background-color: gold;
+border-radius: 4px;
+width: 70px;
+height: 40px;
+color: white;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 20%;
+    
+}
